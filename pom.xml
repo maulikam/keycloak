@@ -187,7 +187,7 @@
         <!-- Maven Plugins -->
         <maven.version>3.9.6</maven.version>
         <maven.plugins.version>3.11.0</maven.plugins.version>
-        <replacer.plugin.version>1.4.1</replacer.plugin.version>
+        <replacer.plugin.version>3.0.2</replacer.plugin.version>
         <jboss.as.plugin.version>7.5.Final</jboss.as.plugin.version>
         <jmeter.plugin.version>1.9.0</jmeter.plugin.version>
         <jmeter.analysis.plugin.version>1.0.4</jmeter.analysis.plugin.version>
@@ -1726,8 +1726,8 @@
                     <version>${maven.plugins.version}</version>
                 </plugin>
                 <plugin>
-                    <groupId>com.google.code.maven-replacer-plugin</groupId>
-                    <artifactId>maven-replacer-plugin</artifactId>
+                    <groupId>org.codehaus.gmavenplus</groupId>
+                    <artifactId>gmavenplus-plugin</artifactId>
                     <version>${replacer.plugin.version}</version>
                 </plugin>
                 <plugin>
